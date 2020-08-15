@@ -24,7 +24,7 @@ background-repeat:no-repeat;
 background-position:center top;
 background-size:cover;
 border-style:none none none none;
-border-width:undefinedpx;
+/* border-width:undefinedpx; */
 border-color:none;
 margin-left:auto;
 margin-right:auto;
@@ -143,8 +143,8 @@ background:rgba(102,197,89,1);
 box-shadow:none;
 text-shadow:none;
 color:#fff;
-border-width:undefinedpx;
-border-color:#undefined;
+/* border-width:undefinedpx;
+border-color:#undefined; */
 font-size:22px;
 line-height:26px;
 font-weight:400;
@@ -173,7 +173,7 @@ position:absolute;
 display:block;
 background:rgba(255,255,255,1);
 border-style:none none none none;
-border-width:undefinedpx;
+/* border-width:undefinedpx; */
 border-color:none;
 margin-left:auto;
 margin-right:auto;
@@ -436,7 +436,7 @@ background-repeat:no-repeat;
 background-position:center top;
 background-size:cover;
 border-style:none none none none;
-border-width:undefinedpx;
+/* border-width:undefinedpx; */
 border-color:none;
 margin-left:auto;
 margin-right:auto;
@@ -2448,8 +2448,8 @@ background:rgba(102,197,89,1);
 box-shadow:none;
 text-shadow:none;
 color:#fff;
-border-width:undefinedpx;
-border-color:#undefined;
+/* border-width:undefinedpx;
+border-color:#undefined; */
 font-size:22px;
 line-height:26px;
 font-weight:400;
@@ -2532,7 +2532,7 @@ position:absolute;
 display:block;
 background:rgba(255,255,255,1);
 border-style:none none none none;
-border-width:undefinedpx;
+/* border-width:undefinedpx; */
 border-color:none;
 margin-left:auto;
 margin-right:auto;
@@ -2708,8 +2708,8 @@ background:rgba(255,255,255,0);
 box-shadow:none;
 text-shadow:none;
 color:#ffffff;
-border-width:undefinedpx;
-border-color:#undefined;
+/* border-width:undefinedpx;
+border-color:#undefined; */
 font-size:12px;
 line-height:14px;
 font-weight:400;
@@ -2732,8 +2732,8 @@ background:rgba(255,255,255,0);
 box-shadow:none;
 text-shadow:none;
 color:#ffffff;
-border-width:undefinedpx;
-border-color:#undefined;
+/* border-width:undefinedpx;
+border-color:#undefined; */
 font-size:12px;
 line-height:14px;
 font-weight:400;
@@ -2833,8 +2833,8 @@ background:rgba(48,48,48,0.45);
 box-shadow:none;
 text-shadow:none;
 color:#ffffff;
-border-width:undefinedpx;
-border-color:#undefined;
+/* border-width:undefinedpx;
+border-color:#undefined; */
 font-size:12px;
 line-height:14px;
 font-weight:bold;
@@ -2857,8 +2857,8 @@ background:rgba(48,48,48,0.45);
 box-shadow:none;
 text-shadow:none;
 color:#ffffff;
-border-width:undefinedpx;
-border-color:#undefined;
+/* border-width:undefinedpx;
+border-color:#undefined; */
 font-size:12px;
 line-height:14px;
 font-weight:bold;
@@ -3427,8 +3427,8 @@ background:rgba(171,171,171,1);
 box-shadow:none;
 color:#ffffff;
 border-style:none;
-border-width:undefinedpx;
-border-color:#undefined;
+/* border-width:undefinedpx;
+border-color:#undefined; */
 }
 #lp-pom-button-1063:active {
 background:rgba(230,161,161,0);
@@ -3443,8 +3443,8 @@ background:rgba(171,171,171,1);
 box-shadow:none;
 color:#ffffff;
 border-style:none;
-border-width:undefinedpx;
-border-color:#undefined;
+/* border-width:undefinedpx;
+border-color:#undefined; */
 }
 #lp-pom-button-1064:active {
 background:rgba(230,161,161,0);
