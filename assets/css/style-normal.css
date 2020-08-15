@@ -4518,7 +4518,7 @@
 
   #lp-pom-box-982-color-overlay {
     position: absolute;
-    background: rgba(255, 255, 255, 0);
+    background: red;
     height: 48px;
     width: 236px;
   }
