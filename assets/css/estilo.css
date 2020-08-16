@@ -39,4 +39,8 @@ h1.display-4.text-center.p-4{
     text-align: justify;
 }
 
+.idealizador-curso__imagem{
+    width:100vh;
+    height:100vh;
+}
 
