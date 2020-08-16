@@ -4,7 +4,9 @@
 }
 
 html,
-body{
+body,
+header,
+section{
     height: 100vh;
 }
 
@@ -29,7 +31,7 @@ h1.display-4.text-center.p-4{
 
 .idealizador-curso__titulo {
     font-family: Muli, sans-serif;
-    letter-spacing: .025em;
+    color
 }
 
 
