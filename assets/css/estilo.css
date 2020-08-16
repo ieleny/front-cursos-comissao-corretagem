@@ -9,7 +9,6 @@ body{
 
 .jumbotron{
     color: white;
-    background: rgb(52,175,144);
     background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%);
 }
 
