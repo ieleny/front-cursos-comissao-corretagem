@@ -9,6 +9,7 @@ body{
 
 .jumbotron{
     height: 100vh;
-    background-color: rgb(140, 196, 164);
+    color: white;
+    background-color: #44a46c !important;
 }
 
