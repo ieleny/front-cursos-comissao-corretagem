@@ -1,18 +1,12 @@
 
-/* body{
-    font-family: "Rubik", sans-serif;
-    line-height: 1.7;
-    background-color: #dfe3e8;
-    letter-spacing: .025em;
-    font-weight: normal;
-} */
+body{
+    height: 100vh;
+}
 
 .jumbotron{
-    height: 100%;
     color: white;
     background: rgb(52,175,144);
     background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%);
-    /* background-color: #44a46c !important; */
 }
 
 p.jumbotron {
