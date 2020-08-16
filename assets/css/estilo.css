@@ -15,4 +15,8 @@ body{
     /* background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%); */
 }
 
+h1.display-4.text-center.p-4{
+    font-weight: 900;
+}
+
 
