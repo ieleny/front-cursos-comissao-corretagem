@@ -13,7 +13,7 @@
     background-color: #44a46c !important;
 }
 
-.jumbotron > p {
+p.jumbotron {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.7;
     letter-spacing: .025em;
