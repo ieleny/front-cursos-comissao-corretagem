@@ -24,20 +24,20 @@ h1.display-4.text-center.p-4{
 
 /* Idealizador do curso */
 #idealizador-curso {
-    background-color:#f3f3f3;
-    background: whitesmoke;
+    background-color:#fafafa !important;
 }
 
 .idealizador-curso__titulo {
     font-family: Muli, sans-serif;
     font-weight: 900;
-    color: #17a2b8;
+    color: #666;
 }
 
 .idealizador-curso__informacao {
     font-family: Muli, sans-serif;
     font-weight: 400;
     font-size: 1.0em;
+    color: #666;
     text-align: justify;
 }
 
