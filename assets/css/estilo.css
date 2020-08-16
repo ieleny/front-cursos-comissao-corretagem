@@ -21,6 +21,7 @@ h1.display-4.text-center.p-4{
 
 /* Idealizador do curso */
 #idealizador-curso {
+    height: 100vh;
     background-color:#fafafa !important;
 }
 
