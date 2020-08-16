@@ -23,13 +23,13 @@ h1.display-4.text-center.p-4{
 /* Idealizador do curso */
 #idealizador-curso {
     height: 100vh;
+    background-color:#f3f3f3;
+    background: whitesmoke;
 }
 
 .idealizador-curso__titulo {
     font-family: Muli, sans-serif;
     letter-spacing: .025em;
-    color: white;
-    background: gray !important;
 }
 
 
