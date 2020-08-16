@@ -154,8 +154,8 @@
     box-shadow: none;
     text-shadow: none;
     color: #fff;
-    border-width: undefinedpx;
-    border-color: #undefined;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -187,7 +187,7 @@
     display: block;
     background: rgba(255, 255, 255, 1);
     border-style: none none none none;
-    border-width: undefinedpx;
+    /* border-width: undefinedpx; */
     border-color: none;
     margin-left: auto;
     margin-right: auto;
@@ -474,7 +474,7 @@
     background-position: center top;
     background-size: cover;
     border-style: none none none none;
-    border-width: undefinedpx;
+    /* border-width: undefinedpx; */
     border-color: none;
     margin-left: auto;
     margin-right: auto;
@@ -2646,8 +2646,8 @@
     box-shadow: none;
     text-shadow: none;
     color: #fff;
-    border-width: undefinedpx;
-    border-color: #undefined;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -2737,7 +2737,7 @@
     display: block;
     background: rgba(255, 255, 255, 1);
     border-style: none none none none;
-    border-width: undefinedpx;
+    /* border-width: undefinedpx; */
     border-color: none;
     margin-left: auto;
     margin-right: auto;
@@ -2927,8 +2927,8 @@
     box-shadow: none;
     text-shadow: none;
     color: #ffffff;
-    border-width: undefinedpx;
-    border-color: #undefined;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
     font-size: 12px;
     line-height: 14px;
     font-weight: 400;
@@ -2952,8 +2952,8 @@
     box-shadow: none;
     text-shadow: none;
     color: #ffffff;
-    border-width: undefinedpx;
-    border-color: #undefined;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
     font-size: 12px;
     line-height: 14px;
     font-weight: 400;
@@ -3059,8 +3059,8 @@
     box-shadow: none;
     text-shadow: none;
     color: #ffffff;
-    border-width: undefinedpx;
-    border-color: #undefined;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
     font-size: 12px;
     line-height: 14px;
     font-weight: bold;
@@ -3084,8 +3084,8 @@
     box-shadow: none;
     text-shadow: none;
     color: #ffffff;
-    border-width: undefinedpx;
-    border-color: #undefined;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
     font-size: 12px;
     line-height: 14px;
     font-weight: bold;
@@ -3760,8 +3760,8 @@
     box-shadow: none;
     color: #ffffff;
     border-style: none;
-    border-width: undefinedpx;
-    border-color: #undefined;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
   }
 
   #lp-pom-button-1063:active {
@@ -3779,8 +3779,8 @@
     box-shadow: none;
     color: #ffffff;
     border-style: none;
-    border-width: undefinedpx;
-    border-color: #undefined;
+    /* border-width: undefinedpx;
+    border-color: #undefined; */
   }
 
   #lp-pom-button-1064:active {
@@ -4518,7 +4518,7 @@
 
   #lp-pom-box-982-color-overlay {
     position: absolute;
-    background: red;
+    background: rgba(255, 255, 255, 0);
     height: 48px;
     width: 236px;
   }
