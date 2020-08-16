@@ -1,15 +1,23 @@
 
-body{
+/* body{
     font-family: "Rubik", sans-serif;
     line-height: 1.7;
     background-color: #dfe3e8;
     letter-spacing: .025em;
     font-weight: normal;
-}
+} */
 
 .jumbotron{
     height: 100vh;
     color: white;
     background-color: #44a46c !important;
+}
+
+.jumbotron > p {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.7;
+    background-color: #dfe3e8;
+    letter-spacing: .025em;
+    font-weight: normal;
 }
 
