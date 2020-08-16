@@ -3,6 +3,7 @@
 	src: url(../fonts/muli/Muli-Regular.ttf)
 }
 
+html,
 body{
     height: 100vh;
 }
