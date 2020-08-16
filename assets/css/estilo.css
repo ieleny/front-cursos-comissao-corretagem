@@ -11,7 +11,8 @@ body{
     font-family: Muli, sans-serif;
     letter-spacing: .025em;
     color: white;
-    background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%);
+    background: #17a2b8 !important; 
+    /* background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%); */
 }
 
 
