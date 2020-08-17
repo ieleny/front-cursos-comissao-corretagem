@@ -21,7 +21,6 @@ h1.display-4.text-center.p-4{
 
 /* Idealizador do curso */
 #idealizador-curso {
-    height: 100vh;
     background-color:#fafafa !important;
 }
 
@@ -29,7 +28,7 @@ h1.display-4.text-center.p-4{
     font-family: Muli, sans-serif;
     font-weight: 900;
     color: #666;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .idealizador-curso__informacao {
@@ -38,10 +37,6 @@ h1.display-4.text-center.p-4{
     font-size: 1.2em;
     color: #666;
     text-align: justify;
-    margin-top: 30px;
-}
-
-.idealizador-curso__imagem{
-    height:90%;
+    margin-top: 50px;
 }
 
