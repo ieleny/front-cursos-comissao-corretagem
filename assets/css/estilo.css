@@ -19,6 +19,11 @@ body{
     font-weight: 900;
 }
 
+/* Beneficios da corretagem */
+.beneficios-corretagem {
+    background-color:#fafafa !important;
+}
+
 /* Idealizador do curso */
 #idealizador-curso {
     background-color:#fafafa !important;
