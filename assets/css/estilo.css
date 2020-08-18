@@ -47,7 +47,7 @@ section {
 
 /* Beneficios da corretagem */
 .beneficios-corretagem__imagem {
-    background: url('/assets/imagens/fotos/imagem_prejuizos.png');
+    background: url('../imagens/fotos/imagem_prejuizos.png');
     background-size: cover;
 }
 
