@@ -5,6 +5,7 @@
 
 body{
     height: 100vh;
+    width: 100%;
 }
 
 section {
@@ -29,25 +30,47 @@ section {
 }
 
 /* Objetivo do curso */
-.objtetivo-curso__titulo {
-    font-family: Muli, sans-serif;
-    font-weight: 900;
-    color: #666;
+#objetivo-curso {
+    background: url('../imagens/fundos/90.png');
+    background-size: cover;
+    margin-bottom: 32px;
 }
 
-.objtetivo-curso__informacao {
+hr.objetivo-curso__divisor{
+    border-top: 3px solid #FF1654;
+    border-radius: 2px;
+    width: 150px;
+    animation: separador-tamanho 12s infinite;
+}
+
+@keyframes  separador-tamanho {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+
+.objetivo-curso__titulo {
     font-family: Muli, sans-serif;
-    font-weight: 400;
-    font-size: 1.2em;
-    color: #666;
+    font-weight: 900;
+    padding-top: 50px;
+    color:white;
+}
+
+.objetivo-curso__informacao {
+    font-family: Muli, sans-serif, bold;
+    font-weight: 600 !important;
+    color: white;
     text-align: justify;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 /* Beneficios da corretagem */
 .beneficios-corretagem__imagem {
-    background: url('../imagens/fotos/imagem_prejuizos.png');
+    background: url('../imagens/fundos/imagem_prejuizos.png');
     background-size: cover;
 }
 
@@ -77,6 +100,43 @@ section {
     color: #666;
     text-align: justify;
     margin-top: 50px;
+}
+
+@media screen and (max-width:500px){
+
+    .objetivo-curso__informacao {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}
+
+@media screen and (max-width:320px){
+
+    .objetivo-curso__titulo {
+        margin-top: 6px !important;
+    }
+
+    .objetivo-curso__informacao {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    #objetivo-curso__coluna-subtitulo{
+        display: none;
+    }
+
+    .beneficios-corretagem__titulo {
+        font-weight: 300;
+        color: white;
+    }
+
+    .display-4 {
+        font-weight: bold !important;
+        font-size: 2.5rem !important;
+    }
+
+
 }
 
 
