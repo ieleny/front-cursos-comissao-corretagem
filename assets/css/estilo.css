@@ -3,8 +3,12 @@
 	src: url(../fonts/muli/Muli-Regular.ttf)
 }
 
-body,section{
+body{
     height: 100vh;
+}
+
+section {
+    position: relative;
 }
 
 .jumbotron{
@@ -25,8 +29,16 @@ body,section{
 }
 
 /* Beneficios da corretagem */
-.beneficios-corretagem {
-    background-color:#fafafa !important;
+#beneficios-corretagem {
+    background: url('/assets/imagens/2107.jpg');
+    background-size: cover;
+}
+
+.beneficios-corretagem__titulo {
+    font-family: Muli, sans-serif;
+    font-weight: 900;
+    color: #17a2b8;
+    text-shadow: 2px 2px 3px #DEF2C8;
 }
 
 /* Idealizador do curso */
