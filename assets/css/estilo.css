@@ -19,6 +19,11 @@ body{
     font-weight: 900;
 }
 
+/* Card */
+.beneficios-corretagem__tamanho-card {
+    max-width: 16rem;
+}
+
 /* Beneficios da corretagem */
 .beneficios-corretagem {
     background-color:#fafafa !important;
