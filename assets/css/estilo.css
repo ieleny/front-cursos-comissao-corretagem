@@ -28,17 +28,34 @@ section {
     max-width: 16rem;
 }
 
+/* Objetivo do curso */
+.objtetivo-curso__titulo {
+    font-family: Muli, sans-serif;
+    font-weight: 900;
+    color: #666;
+}
+
+.objtetivo-curso__informacao {
+    font-family: Muli, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #666;
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 /* Beneficios da corretagem */
-#beneficios-corretagem {
-    background: url('/assets/imagens/2107.jpg');
+.beneficios-corretagem__imagem {
+    background: url('/assets/imagens/fundos/imagem_preuizos.png');
     background-size: cover;
 }
 
 .beneficios-corretagem__titulo {
     font-family: Muli, sans-serif;
     font-weight: 900;
-    color: #17a2b8;
-    text-shadow: 3px 2px 3px #DEF2C8;
+    color: white;
+    /* text-shadow: 3px 2px 3px #DEF2C8; */
 }
 
 /* Idealizador do curso */
