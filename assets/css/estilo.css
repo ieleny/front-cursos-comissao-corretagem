@@ -31,7 +31,9 @@ section {
 }
 
 .texto-imagem{
+    font-family: var(--fonte);
     padding-top: 25%;
+    font-weight: bold;
 }
 
 /* Titulos */
