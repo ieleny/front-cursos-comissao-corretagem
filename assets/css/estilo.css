@@ -34,6 +34,17 @@ section {
     padding-top: 25%;
 }
 
+/* Titulos */
+.conteudo-curso__titulo,
+.funcionamento-curso__titulo,
+.valor-curso__titulo,
+.garantia__titulo {
+    font-family: var(--fonte);
+    font-weight: 900;
+    color: #56494c;
+    padding-top: 50px;
+}
+
 /* Card */
 .beneficios-corretagem__tamanho-card {
     max-width: 16rem;
@@ -107,14 +118,16 @@ hr.divisao{
     /* text-shadow: 3px 2px 3px #DEF2C8; */
 }
 
-/* Titulos */
-.conteudo-curso__titulo,
-.funcionamento-curso__titulo,
-.valor-curso__titulo {
+/* Funcionamento do curso */
+.funcionamento__informacao,
+.valor-curso__informacao,
+.garantia__informacao{
     font-family: var(--fonte);
-    font-weight: 900;
-    color: #56494c;
+    font-weight: 600 !important;
+    color: #666;
+    text-align: justify;
     padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 /* Idealizador do curso */
@@ -125,7 +138,7 @@ hr.divisao{
 .idealizador-curso__titulo {
     font-family: var(--fonte);
     font-weight: 900;
-    color: #666;
+    color: #56494c;
     padding-top: 50px;
 }
 
