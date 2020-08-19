@@ -78,6 +78,7 @@ section {
     font-weight: 600;
 }
 
+/* Icone */
 .icone {
     margin: 5% 0% 0% 35%;
     display: inline-block;
@@ -85,13 +86,23 @@ section {
     height: 70px;
     background-size: cover;
     color:darkblue;
-    filter: invert(27%) sepia(51%) saturate(2000%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    filter: invert(65%) sepia(51%) saturate(2000%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
 
 .icone-globo {
     background-image: url('../externo/bootstrap-icons/globe.svg')
 }
 
+.icone-camera {
+    background-image: url('../externo/bootstrap-icons/camera-video.svg')
+}
+
+.icone-calendario {
+    background-image: url('../externo/bootstrap-icons/calendar-check.svg')
+}
+
+
+/* Conteudo curso */
 .conteudo-curso__card-title {
     color: #56494c;
 }
