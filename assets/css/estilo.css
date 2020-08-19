@@ -36,9 +36,8 @@ section {
     font-weight: bold;
 }
 
-/* Titulos */
+/* Titulos Cinza */
 .conteudo-curso__titulo,
-.funcionamento-curso__titulo,
 .valor-curso__titulo,
 .garantia__titulo {
     font-family: var(--fonte);
@@ -47,8 +46,20 @@ section {
     padding-top: 50px;
 }
 
+/* Informacoes */
+.funcionamento__informacao,
+.valor-curso__informacao,
+.garantia__informacao{
+    font-family: var(--fonte);
+    font-weight: 600 !important;
+    color: #666;
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
 /* Card */
-.beneficios-corretagem__tamanho-card {
+.tamanho-card {
     max-width: 16rem;
 }
 
@@ -59,12 +70,33 @@ section {
 
 .card-title {
     font-family: var(--fonte);
-    color: #56494c;
     font-weight: 900;
 }
 
-.card-text{
+.card-text {
     font-family: var(--fonte);
+    font-weight: 600;
+}
+
+.icone {
+    margin: 5% 0% 0% 35%;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    color:darkblue;
+    filter: invert(27%) sepia(51%) saturate(2000%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.icone-globo {
+    background-image: url('../externo/bootstrap-icons/globe.svg')
+}
+
+.conteudo-curso__card-title {
+    color: #56494c;
+}
+
+.conteudo-curso__card-text{
     font-weight: 500;
 }
 
@@ -91,7 +123,8 @@ hr.divisao{
     }
   }
 
-.objetivo-curso__titulo {
+.objetivo-curso__titulo,
+.funcionamento-curso__titulo {
     font-family: var(--fonte);
     font-weight: 900;
     padding-top: 50px;
@@ -121,16 +154,10 @@ hr.divisao{
 }
 
 /* Funcionamento do curso */
-.funcionamento__informacao,
-.valor-curso__informacao,
-.garantia__informacao{
-    font-family: var(--fonte);
-    font-weight: 600 !important;
-    color: #666;
-    text-align: justify;
-    padding-top: 50px;
-    padding-bottom: 40px;
+#funcionamento-curso {
+    background-color: #17a2b8;
 }
+
 
 /* Idealizador do curso */
 #idealizador-curso {
