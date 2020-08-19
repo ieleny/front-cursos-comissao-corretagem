@@ -42,7 +42,7 @@ section {
 
 /* Objetivo do curso */
 #objetivo-curso {
-    background: url('../imagens/fundos/90.png');
+    background: url('../imagens/fundos/estudo.png');
     background-size: cover;
     margin-bottom: 32px;
 }
@@ -90,6 +90,14 @@ hr.objetivo-curso__divisor{
     font-weight: 900;
     color: white;
     /* text-shadow: 3px 2px 3px #DEF2C8; */
+}
+
+/* Conteudo curso */
+.conteudo-curso__titulo {
+    font-family: var(--fonte);
+    font-weight: 900;
+    color: #56494c;
+    padding-top: 50px;
 }
 
 /* Idealizador do curso */
