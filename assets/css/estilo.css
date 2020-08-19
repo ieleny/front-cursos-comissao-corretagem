@@ -3,6 +3,12 @@
 	src: url(../fonts/muli/Muli-Regular.ttf)
 }
 
+/* Variaveis */
+:root {
+    --fonte: Muli, sans-serif;
+}
+
+/* Principal */
 body{
     height: 100vh;
     width: 100%;
@@ -13,7 +19,7 @@ section {
 }
 
 .jumbotron{
-    font-family: Muli, sans-serif;
+    font-family: var(--fonte);
     letter-spacing: .025em;
     color: white;
     background: #17a2b8 !important;
@@ -27,6 +33,11 @@ section {
 /* Card */
 .beneficios-corretagem__tamanho-card {
     max-width: 16rem;
+}
+
+.card-img {
+    -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
 }
 
 /* Objetivo do curso */
@@ -53,14 +64,14 @@ hr.objetivo-curso__divisor{
   }
 
 .objetivo-curso__titulo {
-    font-family: Muli, sans-serif;
+    font-family: var(--fonte);
     font-weight: 900;
     padding-top: 50px;
     color:white;
 }
 
 .objetivo-curso__informacao {
-    font-family: Muli, sans-serif, bold;
+    font-family: var(--fonte);
     font-weight: 600 !important;
     color: white;
     text-align: justify;
@@ -75,7 +86,7 @@ hr.objetivo-curso__divisor{
 }
 
 .beneficios-corretagem__titulo {
-    font-family: Muli, sans-serif;
+    font-family: var(--fonte);
     font-weight: 900;
     color: white;
     /* text-shadow: 3px 2px 3px #DEF2C8; */
@@ -87,14 +98,14 @@ hr.objetivo-curso__divisor{
 }
 
 .idealizador-curso__titulo {
-    font-family: Muli, sans-serif;
+    font-family: var(--fonte);
     font-weight: 900;
     color: #666;
     padding-top: 50px;
 }
 
 .idealizador-curso__informacao {
-    font-family: Muli, sans-serif;
+    font-family: var(--fonte);
     font-weight: 400;
     font-size: 1.2em;
     color: #666;
