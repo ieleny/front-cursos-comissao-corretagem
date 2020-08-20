@@ -23,6 +23,7 @@ section {
     letter-spacing: .025em;
     color: white;
     background: #17a2b8 !important;
+    margin-bottom: 0rem !important;
     /* background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%); */
 }
 
@@ -36,26 +37,48 @@ section {
     font-weight: bold;
 }
 
-/* Titulos Cinza */
-.conteudo-curso__titulo,
-.valor-curso__titulo,
-.garantia__titulo {
+/* Secoes */
+#garantia{
+    background-color:white;
+    /* background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%); */
+}
+
+/* Titulos  */
+/* Marron */
+.titulo-marron {
     font-family: var(--fonte);
     font-weight: 900;
     color: #56494c;
     padding-top: 50px;
 }
 
-/* Informacoes */
-.funcionamento__informacao,
-.valor-curso__informacao,
-.garantia__informacao{
+.titulo-branco {
+    font-family: var(--fonte);
+    font-weight: 900;
+    color: white;
+    padding-top: 50px;
+}
+
+/* Informacoes*/
+.informacao {
     font-family: var(--fonte);
     font-weight: 600 !important;
-    color: #666;
-    text-align: justify;
     padding-top: 50px;
     padding-bottom: 40px;
+    text-align: justify;
+}
+
+/* Cinza */
+.informacao-cinza{
+    color: #666;
+}
+
+.informacao-branco {
+    color: white;
+}
+
+.informacao-marron {
+    color: #56494c;
 }
 
 /* Card */
@@ -78,6 +101,29 @@ section {
     font-weight: 600;
 }
 
+/* Divisao */
+hr.divisao {
+    border-top: 3px solid #FF1654;
+    border-radius: 2px;
+    width: 50%;
+}
+
+hr.divisao-animada{
+    border-top: 3px solid #FF1654;
+    border-radius: 2px;
+    width: 150px;
+    animation: divisao-tamanho 12s infinite;
+}
+
+@keyframes  divisao-tamanho {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+}
+
 /* Icone */
 .icone {
     margin: 5% 0% 0% 35%;
@@ -85,7 +131,6 @@ section {
     width: 70px;
     height: 70px;
     background-size: cover;
-    color:darkblue;
     filter: invert(65%) sepia(51%) saturate(2000%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
 
@@ -117,22 +162,6 @@ section {
     background-size: cover;
     margin-bottom: 32px;
 }
-
-hr.divisao{
-    border-top: 3px solid #FF1654;
-    border-radius: 2px;
-    width: 150px;
-    animation: separador-tamanho 12s infinite;
-}
-
-@keyframes  separador-tamanho {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 70%;
-    }
-  }
 
 .objetivo-curso__titulo,
 .funcionamento-curso__titulo {
@@ -225,7 +254,7 @@ hr.divisao{
         font-size: 2.5rem !important;
     }
 
-    .idealizador-curso__imagem{
+    .imagem{
         height: 95%;
     }
 
