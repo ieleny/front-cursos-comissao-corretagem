@@ -160,7 +160,7 @@ hr.divisao-animada{
 #objetivo-curso {
     background: url('../imagens/fundos/estudo.png');
     background-size: cover;
-    margin-bottom: 32px;
+    margin-bottom: 10px;
 }
 
 .objetivo-curso__titulo,
@@ -181,7 +181,7 @@ hr.divisao-animada{
 }
 
 /* Beneficios da corretagem */
-.beneficios-corretagem__imagem {
+#beneficios-corretagem {
     background: url('../imagens/fundos/imagem_prejuizos.png');
     background-size: cover;
 }
