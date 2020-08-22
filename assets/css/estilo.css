@@ -309,6 +309,10 @@ hr.divisao-animada{
         height: 95%;
     }
 
+    .icone-seta-esquerda{
+        display: none;
+    }
+
 
 }
 
