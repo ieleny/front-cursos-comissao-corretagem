@@ -59,8 +59,7 @@ section {
 }
 
 #perguntas-frequentes {
-    background: url('../imagens/fundos/fag.png');
-    background-size: cover;
+    background: linear-gradient(to bottom right, #114B5F 50%, #f29492);
 }
 
 /* Titulos  */
@@ -81,18 +80,12 @@ section {
 
 
 /* Subtitulo */
-.subtitulo-espacamento {
-    font-weight: 400;
-    font-size: 1.2em;
-    text-align: justify;
-    padding-top: 50px;
-}
-
 .subtitulo {
     font-weight: 400;
     font-size: 1.2em;
     text-align: justify;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* Cores */
@@ -141,6 +134,22 @@ section {
 .card-text {
     font-family: var(--fonte);
     font-weight: 600;
+}
+
+.card-header {
+    background-color: #561D25 !important;
+    border-bottom: 1px solid white !important;
+}
+
+#accordionPerguntas > .card{
+    border: none !important;
+    border-bottom: 1px solid white !important;
+}
+
+
+/* Cor de link */
+.btn-link {
+    color: white !important;
 }
 
 /* Divisao */
@@ -200,6 +209,11 @@ hr.divisao-animada{
 
 .icone-questionamento {
     background-image: url('../externo/bootstrap-icons/question-circle-fill.svg')
+}
+
+.icone-seta-esquerda {
+    float: right;
+    background-image: url('../externo/bootstrap-icons/arrow-right-short.svg')
 }
 
 

@@ -1,0 +1,3 @@
+$('#headingOne').collapse({
+    toggle: false
+})
