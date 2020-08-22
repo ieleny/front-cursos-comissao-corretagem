@@ -8,8 +8,9 @@
     --fonte: Muli, sans-serif;
 }
 
-/* Principal */
+/* Tags */
 body{
+    font-family: var(--fonte);
     height: 100vh;
     width: 100%;
 }
@@ -18,7 +19,7 @@ section {
     position: relative;
 }
 
-.jumbotron{
+.jumbotron {
     font-family: var(--fonte);
     letter-spacing: .025em;
     color: white;
@@ -27,59 +28,100 @@ section {
     /* background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%); */
 }
 
-.display-4{
+.display-4 {
     font-weight: 900;
 }
 
-.texto-imagem{
+.texto-imagem {
     font-family: var(--fonte);
     padding-top: 25%;
     font-weight: bold;
 }
 
 /* Secoes */
-#garantia{
-    background-color:white;
+#garantia {
+    background-color:#fafafa;
     /* background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%); */
 }
 
+#perguntas-frequentes {
+    background-color: white;
+}
+
+#objetivo-curso {
+    background: url('../imagens/fundos/estudo.png');
+    background-size: cover;
+}
+
+#beneficios-corretagem {
+    background: url('../imagens/fundos/imagem_prejuizos.png');
+    background-size: cover;
+}
+
+#perguntas-frequentes {
+    background: url('../imagens/fundos/fag.png');
+    background-size: cover;
+}
+
 /* Titulos  */
-/* Marron */
-.titulo-marron {
+.titulo{
     font-family: var(--fonte);
     font-weight: 900;
-    color: #56494c;
     padding-top: 50px;
 }
 
-.titulo-branco {
-    font-family: var(--fonte);
-    font-weight: 900;
-    color: white;
-    padding-top: 50px;
-}
 
 /* Informacoes*/
 .informacao {
-    font-family: var(--fonte);
     font-weight: 600 !important;
-    padding-top: 50px;
-    padding-bottom: 40px;
     text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+/* Subtitulo */
+.subtitulo-espacamento {
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+.subtitulo {
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+/* Cores */
+
+/* black-coral */
+.black-coral {
+    color: #465362;
 }
 
 /* Cinza */
-.informacao-cinza{
+.cinza{
     color: #666;
 }
 
-.informacao-branco {
+/* Branco */
+.branco {
     color: white;
 }
 
-.informacao-marron {
+/* Marron */
+.marron {
     color: #56494c;
 }
+
+/* JET */
+.jet {
+    color: #333333; 
+}
+
 
 /* Card */
 .tamanho-card {
@@ -125,13 +167,23 @@ hr.divisao-animada{
 }
 
 /* Icone */
-.icone {
+.icone-grande {
     margin: 5% 0% 0% 35%;
     display: inline-block;
     width: 70px;
     height: 70px;
     background-size: cover;
     filter: invert(65%) sepia(51%) saturate(2000%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.icone-pequeno {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    vertical-align: middle;
+    filter: invert(40%) sepia(51%) saturate(2000%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
 
 .icone-globo {
@@ -146,6 +198,10 @@ hr.divisao-animada{
     background-image: url('../externo/bootstrap-icons/calendar-check.svg')
 }
 
+.icone-questionamento {
+    background-image: url('../externo/bootstrap-icons/question-circle-fill.svg')
+}
+
 
 /* Conteudo curso */
 .conteudo-curso__card-title {
@@ -157,11 +213,6 @@ hr.divisao-animada{
 }
 
 /* Objetivo do curso */
-#objetivo-curso {
-    background: url('../imagens/fundos/estudo.png');
-    background-size: cover;
-    margin-bottom: 10px;
-}
 
 .objetivo-curso__titulo,
 .funcionamento-curso__titulo {
@@ -171,21 +222,7 @@ hr.divisao-animada{
     color:white;
 }
 
-.objetivo-curso__informacao {
-    font-family: var(--fonte);
-    font-weight: 600 !important;
-    color: white;
-    text-align: justify;
-    padding-top: 50px;
-    padding-bottom: 40px;
-}
-
 /* Beneficios da corretagem */
-#beneficios-corretagem {
-    background: url('../imagens/fundos/imagem_prejuizos.png');
-    background-size: cover;
-}
-
 .beneficios-corretagem__titulo {
     font-family: var(--fonte);
     font-weight: 900;
