@@ -25,7 +25,6 @@ section {
     color: white;
     background: #17a2b8 !important;
     margin-bottom: 0rem !important;
-    /* background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%); */
 }
 
 .display-4 {
@@ -39,6 +38,10 @@ section {
 }
 
 /* Secoes */
+#bibliotecas-imagem {
+    background: #17a2b8 !important;
+}
+
 #garantia {
     background-color:#fafafa;
     /* background: linear-gradient(90deg, rgba(52,175,144,1) 22%, rgba(44,181,161,1) 62%); */
@@ -61,6 +64,15 @@ section {
 #perguntas-frequentes {
     background: linear-gradient(to bottom right, #114B5F 50%, #f29492);
 }
+
+#funcionamento-curso {
+    background-color: #17a2b8;
+}
+
+#idealizador-curso {
+    background-color:#fafafa !important;
+}
+
 
 /* Titulos  */
 .titulo{
@@ -86,6 +98,14 @@ section {
     text-align: justify;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+/* Rodape */
+.rodape {
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-top: 20px;
 }
 
 /* Cores */
@@ -227,10 +247,8 @@ hr.divisao-animada{
 }
 
 /* Objetivo do curso */
-
 .objetivo-curso__titulo,
 .funcionamento-curso__titulo {
-    font-family: var(--fonte);
     font-weight: 900;
     padding-top: 50px;
     color:white;
@@ -238,32 +256,19 @@ hr.divisao-animada{
 
 /* Beneficios da corretagem */
 .beneficios-corretagem__titulo {
-    font-family: var(--fonte);
     font-weight: 900;
     color: white;
     /* text-shadow: 3px 2px 3px #DEF2C8; */
 }
 
-/* Funcionamento do curso */
-#funcionamento-curso {
-    background-color: #17a2b8;
-}
-
-
 /* Idealizador do curso */
-#idealizador-curso {
-    background-color:#fafafa !important;
-}
-
 .idealizador-curso__titulo {
-    font-family: var(--fonte);
     font-weight: 900;
     color: #56494c;
     padding-top: 50px;
 }
 
 .idealizador-curso__informacao {
-    font-family: var(--fonte);
     font-weight: 400;
     font-size: 1.2em;
     color: #666;
@@ -272,11 +277,6 @@ hr.divisao-animada{
 }
 
 @media screen and (max-width:500px){
-
-    .objetivo-curso__informacao {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
 
     .icone-seta-esquerda{
         display: none;
@@ -290,12 +290,7 @@ hr.divisao-animada{
         margin-top: 6px !important;
     }
 
-    .objetivo-curso__informacao {
-        padding-top: 4px;
-        padding-bottom: 4px;
-    }
-
-    #objetivo-curso__coluna-subtitulo{
+    #objetivo-curso__coluna-subtitulo {
         display: none;
     }
 
