@@ -278,6 +278,10 @@ hr.divisao-animada{
         padding-bottom: 5px;
     }
 
+    .icone-seta-esquerda{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:320px){
@@ -308,11 +312,6 @@ hr.divisao-animada{
     .imagem{
         height: 95%;
     }
-
-    .icone-seta-esquerda{
-        display: none;
-    }
-
 
 }
 
