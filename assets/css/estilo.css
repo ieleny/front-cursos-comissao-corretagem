@@ -279,15 +279,11 @@ hr.divisao-animada{
     margin-top: 50px;
 }
 
-@media screen and (max-width:500px){
-
-    .icone-seta-esquerda{
-        display: none;
-    }
-
-}
-
 @media screen and (max-width:320px){
+
+    #bibliotecas-imagem > .container > .row > .col > .imagem{
+        margin-top: 5%;
+    }
 
     .objetivo-curso__titulo {
         margin-top: 6px !important;
@@ -312,5 +308,14 @@ hr.divisao-animada{
     }
 
 }
+
+@media screen and (max-width:500px){
+
+    .icone-seta-esquerda{
+        display: none;
+    }
+
+}
+
 
 
