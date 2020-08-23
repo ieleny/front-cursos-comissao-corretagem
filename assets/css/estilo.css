@@ -73,6 +73,9 @@ section {
     background-color:#fafafa !important;
 }
 
+#bibliotecas-imagem > .container > .row > .col > .imagem{
+    margin-top: 20%;
+}
 
 /* Titulos  */
 .titulo{
