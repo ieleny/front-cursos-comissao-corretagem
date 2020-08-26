@@ -23,8 +23,9 @@ section {
     font-family: var(--fonte);
     letter-spacing: .025em;
     color: white;
-    background: #17a2b8 !important;
+    background: #63B995 !important;
     margin-bottom: 0rem !important;
+    height: 100%;
 }
 
 .display-4 {
@@ -252,6 +253,7 @@ hr.divisao-animada{
 /* Objetivo do curso */
 .objetivo-curso__titulo,
 .funcionamento-curso__titulo {
+    font-family: var(--fonte);
     font-weight: 900;
     padding-top: 50px;
     color:white;
@@ -305,6 +307,7 @@ hr.divisao-animada{
 
     .imagem{
         height: 95%;
+        width: 100%;
     }
 
 }
