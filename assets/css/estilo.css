@@ -71,6 +71,10 @@ section {
     background-color: #17a2b8;
 }
 
+#valor-curso {
+    background: #63B995; 
+}
+
 #idealizador-curso {
     background-color:#fafafa !important;
 }
