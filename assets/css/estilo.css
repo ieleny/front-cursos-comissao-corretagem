@@ -40,7 +40,7 @@ section {
 
 /* Secoes */
 #bibliotecas-imagem {
-    background: #17a2b8 !important;
+    background: #63B995 !important;
 }
 
 #garantia {
@@ -75,7 +75,7 @@ section {
 }
 
 #bibliotecas-imagem > .container > .row > .col > .imagem{
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 /* Titulos  */
