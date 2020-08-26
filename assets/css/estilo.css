@@ -64,6 +64,7 @@ section {
 
 #perguntas-frequentes {
     background: linear-gradient(to bottom right, #114B5F 50%, #f29492);
+    height: 100%;
 }
 
 #funcionamento-curso {
@@ -137,6 +138,11 @@ section {
 /* JET */
 .jet {
     color: #333333; 
+}
+
+/* Vermelho */
+.vermelho {
+    color: #FF1654;
 }
 
 
