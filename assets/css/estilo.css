@@ -72,7 +72,7 @@ section {
 }
 
 #valor-curso {
-    background: #63B995; 
+    background: #fafafa; 
 }
 
 #idealizador-curso {
@@ -146,7 +146,12 @@ section {
 
 /* Vermelho */
 .vermelho {
-    color: #FF1654;
+    color:rgb(209, 25, 42);
+}
+
+/* Verde */
+.verde {
+    color:#2a7332;
 }
 
 
